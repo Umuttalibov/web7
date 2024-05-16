@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My City</title>
+    <link
+      rel="icon"
+      type="images/x-icon"
+      href="favicon/apple-touch-icon.png"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="unnamed.png" alt="" width="120"
+      /></a>
+      <nav class="navbar">
+        <a class="name" href="#">Anasayfa</a>
+        <a class="name" href="city/city.html">Şehir</a>
+        <a class="name" href="culture.html">Kültür</a>
+        <a class="name" href="contact/contact.html">İletişim</a>
+        <a href="" class="myname">ÜMİT TALIBOV</a>
+      </nav>
+    </header>
+    <h1>KENDİM</h1><br>
+    <p>
+      Ben Ümit Talıbov. Azerbaycanlıyım. Baküde yaşıyorum. 18 yaşındayım. Bilgisayar mühendisliği okuyorum. 2.sınıfdayım. Hobi olarak arkadaşlarla bilardo,futbol ve pc oyunları oynuyorum.
+    </p>
+    <img class="img1" src="istockphoto-149409557-612x612.jpg" alt="">
+    <img class="img2" src="download.jpg" alt="">
+  </body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "poppins", sans-serif;
+    }
+    body {
+      width: 100%;
+      height: 100vh;
+      background: url(index/index.css/pexels-rostislav-5011647.jpg)
+        no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .img1{
+      margin-left: 65%;
+      margin-top: 150px; 
+      width: 31%;
+      height: 40%;
+          }
+    .img2{
+      margin-left: 65%;
+      width: 31%;
+      
+      height:35%;
+ 
+    }
+    .header {
+      position: fixed;
+      left: 0;
+      top: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 100%;
+      padding: 10px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header a {
+      color: #fff;
+      text-transform: capitalize;
+    }
+    .header .logo {
+      text-decoration: none;
+      font-size: 32px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .header .navbar .name {
+      margin-left: 40px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      position: relative;
+    }
+    .navbar {
+      padding-bottom: 40px;
+      margin-top: 20px;
+    }
+    .navbar .name::before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 2px;
+      background: #fff;
+      width: 00%;
+      transition: 0.3s;
+    }
+    .navbar a:hover::before {
+      width: 100%;
+    }
+    .myname {
+      cursor: default;
+      font-size: 25px;
+      border: none;
+      margin-left: 40px;
+      text-decoration: none;
+    }
+
+    h1 {
+      position: fixed;
+      font-size: 45px;
+      color: #fff;
+      left: 14.5em;
+      top: 2.5em;
+      display: flex;
+      letter-spacing: 2px;
+      transition: 0.25s;
+    }
+    h1:hover {
+      letter-spacing: 5px;
+      color: red;
+    }
+    .card {
+      position: absolute;
+      width: 25%;
+      border-radius: 20px;
+      left: 5em;
+      top: 10em;
+      background-color: #a43820;
+    }
+    .myimg {
+      width: 100%;
+      height: 50vh;
+      border-radius: 20px;
+    }
+    .textCard {
+      background-color: #a43820;
+      color: #fff;
+      width: 320px;
+    }
+    h5 {
+      position: absolute;
+      font-size: 32px;
+      text-align: center;
+      bottom: 6em;
+      left: 4em;
+      color: #fff;
+    }
+    .card-body {
+      padding: 50px;
+    }
+    .card2 {
+      position: absolute;
+      width: 28%;
+      border-radius: 20px;
+      left: 34.5em;
+      top: 13em;
+      background-color: #693d3d;
+    }
+    .myimg2 {
+      width: 100%;
+      height: 50vh;
+      border-radius: 20px;
+    }
+    .text_Card {
+      background: #693d3d;
+      color: #fff;
+    }
+    h4 {
+      position: absolute;
+      font-size: 32px;
+      text-align: center;
+      bottom: 4.3em;
+      left: 4.5em;
+      color: #fff;
+    }
+    .card-body {
+      padding: 50px;
+    }
+    .card3 {
+      position: absolute;
+      width: 25%;
+      border-radius: 20px;
+      left: 67em;
+      top: 10em;
+      background-color: #ba5536;
+    }
+    .myimg3 {
+      width: 100%;
+      height: 50vh;
+      border-radius: 20px;
+    }
+    .text__Card {
+      background: #ba5536;
+      color: #fff;
+    }
+    h3 {
+      position: absolute;
+      font-size: 32px;
+      text-align: center;
+      bottom: 5.5em;
+      left: 4em;
+      color: #fff;
+    }
+    .card-body {
+      padding: 50px;
+    }
+    p {
+      position: fixed;
+      font-size: 25px;
+      color: #fff;
+      left: 1em;
+      right: 60%;
+      top: 12.5em;
+      display: flex;
+    }
+    body{
+      background-color: rgba(0, 0, 0, 0.89)
+    }
+  </style>
+</html>
